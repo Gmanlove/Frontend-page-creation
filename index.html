@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 data-testid="pageTitle">My Frontend Page</h1>
+      </div>
+      <!-- Slack Name -->
+      <div class="info-name">
+        <strong data-testid="slackNameLabel">Slack Name:</strong>
+        <div data-testid="slackUserName">Emmanuel Obi</div>
+      </div>
+
+      <!-- Slack Display Picture -->
+      <div class="info-pic">
+        <strong data-testid="slackImageLabel">Slack Display Picture:</strong>
+        <div>
+          <img
+            class="profile-img"
+            src="images/20230407_190846.png"
+            alt="Emmanuel Obi"
+            data-testid="slackDisplayImage"
+          />
+        </div>
+      </div>
+
+      <!-- Current Day of the Week -->
+      <div class="info-day">
+        <strong data-testid="dayOfWeekLabel">Current Day of the Week:</strong>
+        <div data-testid="currentDayOfTheWeek">Monday</div>
+      </div>
+
+      <!-- Current UTC Time -->
+      <div class="info-utc">
+        <strong data-testid="utcTimeLabel">Current UTC Time:</strong>
+        <div data-testid="currentUTCTime" class="red-text">12:00:00 UTC</div>
+      </div>
+
+      <!-- Track -->
+      <div class="info-track">
+        <strong data-testid="trackLabel">Track:</strong>
+        <div data-testid="myTrack">Frontend</div>
+      </div>
+
+      <!-- GitHub URL -->
+      <div class="info-git">
+        <strong data-testid="githubUrlLabel">GitHub URL:</strong>
+        <a
+          href="https://github.com/Gmanlove/Frontend-page-creation"
+          data-testid="githubURL"
+          target="_blank"
+          >Frontend-page-creation</a
+        >
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
